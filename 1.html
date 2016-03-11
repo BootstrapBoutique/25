@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+    <meta charset="utf-8">    
+    <title>www.bootstrap.boutique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui.js"></script>    
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">        
+    <link rel="stylesheet" href="1.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <small>Get more @<a href="http://bootstrap.boutique"> Bootstrap Boutique</a></small>
+
+
+      <div class="row">    
+        <div class="col-md-10">    
+
+          <h1>Sortable table</h1>
+
+          <table class="table" id="diagnosis_list">
+            <thead>
+              <tr><th>Priority</th><th>Name</th><th>Favorite fruit</th><th>Vegetarian?</th><th>&nbsp;</th></tr>
+            </thead>
+            <tbody class="ui-sortable">
+
+
+              <tr class="ui-sortable-handle"><td class="priority">1</td><td>Thomas Jefferson</td><td>Banana</td><td>Y</td><td><a class="btn btn-delete btn-danger">Delete</a></td></tr><tr style="display: table-row;" class="ui-sortable-handle"><td class="priority">2</td><td>George Washington</td><td>Apple</td><td>N</td><td><a class="btn btn-delete btn-danger">Delete</a></td></tr>
+              <tr style="display: table-row;" class="ui-sortable-handle"><td class="priority">3</td><td>John Adams</td><td>Pear</td><td>Y</td><td><a class="btn btn-delete btn-danger">Delete</a></td></tr>
+              <tr class="ui-sortable-handle"><td class="priority">4</td><td>Alexander Hamilton</td><td>Red grapes</td><td>N</td><td><a class="btn btn-delete btn-danger">Delete</a></td></tr><tr style="display: table-row;" class="ui-sortable-handle"><td class="priority">5</td><td>Ben Franklin</td><td>Kumquat</td><td>N</td><td><a class="btn btn-delete btn-danger">Delete</a></td></tr>
+            </tbody>
+          </table>
+
+
+
+
+        </div>    
+      </div>    
+    </div>
+
+    <script src="1.js"></script>    
+  </body>
+</html>
